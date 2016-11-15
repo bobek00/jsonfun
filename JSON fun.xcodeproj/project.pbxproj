@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		194872931DDB8BF10009DCD2 /* CountriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194872921DDB8BF10009DCD2 /* CountriesVC.swift */; };
+		194872951DDB8C5F0009DCD2 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194872941DDB8C5F0009DCD2 /* Country.swift */; };
 		1974279E1DDB316000A21E44 /* Competition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1974279D1DDB316000A21E44 /* Competition.swift */; };
 		DE1D3F601DC1E4210091BC83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D3F5F1DC1E4210091BC83 /* AppDelegate.swift */; };
 		DE1D3F621DC1E4210091BC83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D3F611DC1E4210091BC83 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		194872921DDB8BF10009DCD2 /* CountriesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesVC.swift; sourceTree = "<group>"; };
+		194872941DDB8C5F0009DCD2 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		1974279D1DDB316000A21E44 /* Competition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Competition.swift; sourceTree = "<group>"; };
 		DE1D3F5C1DC1E4210091BC83 /* JSON fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1D3F5F1DC1E4210091BC83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,9 +62,11 @@
 		DE1D3F5E1DC1E4210091BC83 /* JSON fun */ = {
 			isa = PBXGroup;
 			children = (
+				1974279D1DDB316000A21E44 /* Competition.swift */,
+				194872941DDB8C5F0009DCD2 /* Country.swift */,
 				DE1D3F5F1DC1E4210091BC83 /* AppDelegate.swift */,
 				DE1D3F611DC1E4210091BC83 /* ViewController.swift */,
-				1974279D1DDB316000A21E44 /* Competition.swift */,
+				194872921DDB8BF10009DCD2 /* CountriesVC.swift */,
 				DE1D3F631DC1E4210091BC83 /* Main.storyboard */,
 				DE1D3F691DC1E4210091BC83 /* Assets.xcassets */,
 				DE1D3F6B1DC1E4210091BC83 /* LaunchScreen.storyboard */,
@@ -145,7 +151,9 @@
 			files = (
 				DE1D3F621DC1E4210091BC83 /* ViewController.swift in Sources */,
 				DE1D3F681DC1E4210091BC83 /* JSON_fun.xcdatamodeld in Sources */,
+				194872931DDB8BF10009DCD2 /* CountriesVC.swift in Sources */,
 				DE1D3F601DC1E4210091BC83 /* AppDelegate.swift in Sources */,
+				194872951DDB8C5F0009DCD2 /* Country.swift in Sources */,
 				1974279E1DDB316000A21E44 /* Competition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

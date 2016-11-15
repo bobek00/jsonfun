@@ -56,7 +56,7 @@ class ViewController: UIViewController {
                             
                             competitions.append(competiton)
                             let url = URL(string: "http://data.judobase.org/api/get_json?access_token=&params%5Baction%5D=competitor.info&params%5B__ust%5D=&params%5Bid_person%5D=\(id_competiton!)")
-                            print(url)
+                            print(url!)
                             
                         }
                     }
